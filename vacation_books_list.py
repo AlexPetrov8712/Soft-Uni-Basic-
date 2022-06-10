@@ -1,0 +1,5 @@
+pages = int(input())
+numbers_of_pages_for_hour = int(input())
+number_of_day = int(input())
+needed_hours_per_day = (pages / numbers_of_pages_for_hour // number_of_day)
+print(needed_hours_per_day)
